@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>10</zoom_level>
+  <zoom_level>9</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
-      <y>320</y>
-      <w>100</w>
-      <h>30</h>
+      <x>144</x>
+      <y>468</y>
+      <w>126</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>&lt;Orgin Server&gt;</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
-      <y>270</y>
-      <w>100</w>
-      <h>30</h>
+      <x>45</x>
+      <y>234</y>
+      <w>81</w>
+      <h>351</h>
     </coordinates>
     <panel_attributes>CloudFront</panel_attributes>
     <additional_attributes/>
@@ -26,23 +26,586 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
-      <y>490</y>
-      <w>100</w>
-      <h>30</h>
+      <x>1224</x>
+      <y>261</y>
+      <w>162</w>
+      <h>108</h>
     </coordinates>
-    <panel_attributes>RDS</panel_attributes>
+    <panel_attributes>RDS
+&lt;SQL&gt;</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>460</x>
-      <y>490</y>
-      <w>100</w>
-      <h>30</h>
+      <x>1566</x>
+      <y>549</y>
+      <w>108</w>
+      <h>162</h>
+    </coordinates>
+    <panel_attributes>S3
+&lt;Static&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>846</x>
+      <y>693</y>
+      <w>216</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>SQS - Simple Queue Servcie</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>846</x>
+      <y>747</y>
+      <w>216</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>SNS - Simple Notifications Servcie</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>846</x>
+      <y>630</y>
+      <w>216</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>SWS - Simple Workflow Servcie</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>225</x>
+      <y>999</y>
+      <w>306</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>IAM - Identify and Access Management</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>225</x>
+      <y>1053</y>
+      <w>144</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>ARN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>225</x>
+      <y>1098</y>
+      <w>144</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Resources</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1224</x>
+      <y>477</y>
+      <w>162</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>Redshift
+--
+Petabyte
+PostgreSQL</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1224</x>
+      <y>387</y>
+      <w>162</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>DynamoDB</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>855</x>
+      <y>891</y>
+      <w>180</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>Elastic Map reduce
+--
+Hadoop
+Spark
+HDFS
+EMRFS</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1044</x>
+      <y>891</y>
+      <w>171</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>Elastic Search</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1044</x>
+      <y>1053</y>
+      <w>180</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Amazon Machine Learning
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>855</x>
+      <y>1152</y>
+      <w>180</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Kinesis Streams
+--
+Real time data
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>855</x>
+      <y>1053</y>
+      <w>180</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>QuickSight BI</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1260</x>
+      <y>549</y>
+      <w>324</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..
+m1=snapshot</panel_attributes>
+    <additional_attributes>340.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>234</x>
+      <y>234</y>
+      <w>225</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>API Gateway
+--
+Serverless</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>117</x>
+      <y>252</y>
+      <w>135</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..
+REST request</panel_attributes>
+    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>513</x>
+      <y>234</y>
+      <w>216</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Lambda Function</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>225</x>
+      <y>630</y>
+      <w>369</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>AWS Cognito ID Service 
+--
+Authentication</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>225</x>
+      <y>747</y>
+      <w>108</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>OAuth</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>342</x>
+      <y>747</y>
+      <w>108</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>SAML2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>225</x>
+      <y>783</y>
+      <w>108</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Social ID
+--
+Facebook
+Google</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>459</x>
+      <y>747</y>
+      <w>126</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Federage User Pool</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>513</x>
+      <y>387</y>
+      <w>216</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>AWS AppSync
+&lt;GraphQL Server&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>720</x>
+      <y>405</y>
+      <w>522</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..</panel_attributes>
+    <additional_attributes>560.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>0</x>
+      <y>405</y>
+      <w>531</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..
+GraphQL request</panel_attributes>
+    <additional_attributes>570.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1332</x>
+      <y>801</y>
+      <w>351</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Test tools
+--
+Apica
+BlazeMeter
+Ghost Inspector
+HPE StormRUnner Load
+Runscope</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>513</x>
+      <y>0</y>
+      <w>270</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>Amaazon Beantalk</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>531</x>
+      <y>36</y>
+      <w>144</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>Applicatrion 
+--
+Name
+Environment</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1080</x>
+      <y>261</y>
+      <w>90</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Elastic Cache</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1152</x>
+      <y>297</y>
+      <w>99</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..
+Cache Update</panel_attributes>
+    <additional_attributes>20.0;20.0;80.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1980</x>
+      <y>666</y>
+      <w>126</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Glacier
+&lt;Archive&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1701</x>
+      <y>243</y>
+      <w>234</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>EC2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1701</x>
+      <y>396</y>
+      <w>234</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Elastic File System</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1980</x>
+      <y>558</y>
+      <w>126</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Storeage Gateway</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1701</x>
+      <y>315</y>
+      <w>126</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Elastic Block Store</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1755</x>
+      <y>279</y>
+      <w>27</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1863</x>
+      <y>279</y>
+      <w>27</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..</panel_attributes>
+    <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1701</x>
+      <y>666</y>
+      <w>252</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>S3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1701</x>
+      <y>549</y>
+      <w>117</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>S3 Bucket
+--
+Folder
+  |- File
+  |- Folder</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1944</x>
+      <y>675</y>
+      <w>54</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..</panel_attributes>
+    <additional_attributes>40.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1980</x>
+      <y>612</y>
+      <w>126</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Snowball</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2205</x>
+      <y>558</y>
+      <w>153</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>// Class Element
+
+Coporate Data Center
+--
+
+
+customelement=
+// DB Symbol
+drawArc(5,5,26,8,0,180,true) fg=black bg=#222222 //Parameters (x, y, width, height, start, extent, open)
+drawArc(5,5,26,8,180,180,true) fg=black //Parameters (x, y, width, height, start, extent, open)
+drawRectangle(5,9,26,15) lw=0.1 bg=#222222 //Parameters (x, y, width, height)
+drawLine(5,9,5,24)fg=black //Parameters (x1, y1, x2, y2) 
+drawLine(31,9,31,24)fg=black //Parameters (x1, y1, x2, y2) 
+drawArc(5,10,26,8,180,180,true) fg=black //Parameters (x, y, width, height, start, extent, open)
+drawArc(5,15,26,8,180,180,true) fg=black //Parameters (x, y, width, height, start, extent, open)
+drawArc(5,20,26,8,180,180,true)fg=black bg=#222222 //Parameters (x, y, width, height, start, extent, open)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1836</x>
+      <y>549</y>
+      <w>117</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>S3 Bucket</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1404</x>
+      <y>261</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>MySQL</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1404</x>
+      <y>297</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>Aurora DB</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1404</x>
+      <y>333</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>Oracle DB</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
