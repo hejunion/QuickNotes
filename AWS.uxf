@@ -50,8 +50,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>846</x>
-      <y>693</y>
+      <x>819</x>
+      <y>1080</y>
       <w>216</w>
       <h>36</h>
     </coordinates>
@@ -61,10 +61,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>846</x>
-      <y>747</y>
+      <x>819</x>
+      <y>1125</y>
       <w>216</w>
-      <h>36</h>
+      <h>45</h>
     </coordinates>
     <panel_attributes>SNS - Simple Notifications Servcie</panel_attributes>
     <additional_attributes/>
@@ -72,8 +72,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>846</x>
-      <y>630</y>
+      <x>819</x>
+      <y>1017</y>
       <w>216</w>
       <h>36</h>
     </coordinates>
@@ -141,8 +141,8 @@ PostgreSQL</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>855</x>
-      <y>891</y>
+      <x>828</x>
+      <y>1278</y>
       <w>180</w>
       <h>81</h>
     </coordinates>
@@ -157,8 +157,8 @@ EMRFS</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1044</x>
-      <y>891</y>
+      <x>1017</x>
+      <y>1278</y>
       <w>171</w>
       <h>81</h>
     </coordinates>
@@ -168,8 +168,8 @@ EMRFS</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1044</x>
-      <y>1053</y>
+      <x>1017</x>
+      <y>1440</y>
       <w>180</w>
       <h>63</h>
     </coordinates>
@@ -181,8 +181,8 @@ EMRFS</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>855</x>
-      <y>1152</y>
+      <x>828</x>
+      <y>1539</y>
       <w>180</w>
       <h>72</h>
     </coordinates>
@@ -195,8 +195,8 @@ Real time data
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>855</x>
-      <y>1053</y>
+      <x>828</x>
+      <y>1440</y>
       <w>180</w>
       <h>63</h>
     </coordinates>
@@ -256,7 +256,7 @@ REST request</panel_attributes>
     <coordinates>
       <x>225</x>
       <y>630</y>
-      <w>369</w>
+      <w>441</w>
       <h>99</h>
     </coordinates>
     <panel_attributes>AWS Cognito ID Service 
@@ -267,8 +267,8 @@ Authentication</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>225</x>
-      <y>747</y>
+      <x>261</x>
+      <y>774</y>
       <w>108</w>
       <h>27</h>
     </coordinates>
@@ -278,8 +278,8 @@ Authentication</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>342</x>
-      <y>747</y>
+      <x>378</x>
+      <y>774</y>
       <w>108</w>
       <h>72</h>
     </coordinates>
@@ -289,8 +289,8 @@ Authentication</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>225</x>
-      <y>783</y>
+      <x>261</x>
+      <y>810</y>
       <w>108</w>
       <h>72</h>
     </coordinates>
@@ -303,8 +303,8 @@ Google</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>459</x>
-      <y>747</y>
+      <x>495</x>
+      <y>774</y>
       <w>126</w>
       <h>72</h>
     </coordinates>
@@ -349,8 +349,8 @@ GraphQL request</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1332</x>
-      <y>801</y>
+      <x>1305</x>
+      <y>1188</y>
       <w>351</w>
       <h>117</h>
     </coordinates>
@@ -606,6 +606,40 @@ drawArc(5,20,26,8,180,180,true)fg=black bg=#222222 //Parameters (x, y, width, he
       <h>27</h>
     </coordinates>
     <panel_attributes>Oracle DB</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1566</x>
+      <y>720</y>
+      <w>108</w>
+      <h>162</h>
+    </coordinates>
+    <panel_attributes>S3 Web Hosting</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>225</x>
+      <y>738</y>
+      <w>441</w>
+      <h>162</h>
+    </coordinates>
+    <panel_attributes>Authentication Provider
+layer=-1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>495</x>
+      <y>684</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>Identify Pool</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
