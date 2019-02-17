@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>9</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>144</x>
-      <y>468</y>
-      <w>126</w>
-      <h>27</h>
+      <x>304</x>
+      <y>416</y>
+      <w>112</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>&lt;Orgin Server&gt;</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>45</x>
-      <y>234</y>
-      <w>81</w>
-      <h>351</h>
+      <x>216</x>
+      <y>208</y>
+      <w>64</w>
+      <h>824</h>
     </coordinates>
     <panel_attributes>CloudFront</panel_attributes>
     <additional_attributes/>
@@ -26,10 +26,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1224</x>
-      <y>261</y>
-      <w>162</w>
-      <h>108</h>
+      <x>1264</x>
+      <y>232</y>
+      <w>144</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>RDS
 &lt;SQL&gt;</panel_attributes>
@@ -38,10 +38,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1566</x>
-      <y>549</y>
-      <w>108</w>
-      <h>162</h>
+      <x>1568</x>
+      <y>488</y>
+      <w>96</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>S3
 &lt;Static&gt;</panel_attributes>
@@ -50,10 +50,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>819</x>
-      <y>1080</y>
-      <w>216</w>
-      <h>36</h>
+      <x>904</x>
+      <y>960</y>
+      <w>192</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>SQS - Simple Queue Servcie</panel_attributes>
     <additional_attributes/>
@@ -61,10 +61,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>819</x>
-      <y>1125</y>
-      <w>216</w>
-      <h>45</h>
+      <x>904</x>
+      <y>1000</y>
+      <w>192</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>SNS - Simple Notifications Servcie</panel_attributes>
     <additional_attributes/>
@@ -72,10 +72,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>819</x>
-      <y>1017</y>
-      <w>216</w>
-      <h>36</h>
+      <x>904</x>
+      <y>904</y>
+      <w>192</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>SWS - Simple Workflow Servcie</panel_attributes>
     <additional_attributes/>
@@ -83,10 +83,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>225</x>
-      <y>999</y>
-      <w>306</w>
-      <h>36</h>
+      <x>376</x>
+      <y>888</y>
+      <w>272</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>IAM - Identify and Access Management</panel_attributes>
     <additional_attributes/>
@@ -94,10 +94,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>225</x>
-      <y>1053</y>
-      <w>144</w>
-      <h>36</h>
+      <x>376</x>
+      <y>936</y>
+      <w>128</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>ARN</panel_attributes>
     <additional_attributes/>
@@ -105,10 +105,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>225</x>
-      <y>1098</y>
-      <w>144</w>
-      <h>36</h>
+      <x>376</x>
+      <y>976</y>
+      <w>128</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>Resources</panel_attributes>
     <additional_attributes/>
@@ -116,10 +116,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1224</x>
-      <y>477</y>
-      <w>162</w>
-      <h>81</h>
+      <x>1264</x>
+      <y>424</y>
+      <w>144</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>Redshift
 --
@@ -130,10 +130,10 @@ PostgreSQL</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1224</x>
-      <y>387</y>
-      <w>162</w>
-      <h>63</h>
+      <x>1264</x>
+      <y>344</y>
+      <w>144</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>DynamoDB</panel_attributes>
     <additional_attributes/>
@@ -141,10 +141,10 @@ PostgreSQL</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>828</x>
-      <y>1278</y>
-      <w>180</w>
-      <h>81</h>
+      <x>912</x>
+      <y>1136</y>
+      <w>160</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>Elastic Map reduce
 --
@@ -157,10 +157,10 @@ EMRFS</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1017</x>
-      <y>1278</y>
-      <w>171</w>
-      <h>81</h>
+      <x>1080</x>
+      <y>1136</y>
+      <w>152</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>Elastic Search</panel_attributes>
     <additional_attributes/>
@@ -168,10 +168,10 @@ EMRFS</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1017</x>
-      <y>1440</y>
-      <w>180</w>
-      <h>63</h>
+      <x>1080</x>
+      <y>1280</y>
+      <w>160</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>Amazon Machine Learning
 --
@@ -181,10 +181,10 @@ EMRFS</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>828</x>
-      <y>1539</y>
-      <w>180</w>
-      <h>72</h>
+      <x>912</x>
+      <y>1368</y>
+      <w>160</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>Kinesis Streams
 --
@@ -195,10 +195,10 @@ Real time data
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>828</x>
-      <y>1440</y>
-      <w>180</w>
-      <h>63</h>
+      <x>912</x>
+      <y>1280</y>
+      <w>160</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>QuickSight BI</panel_attributes>
     <additional_attributes/>
@@ -206,10 +206,10 @@ Real time data
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1260</x>
-      <y>549</y>
-      <w>324</w>
-      <h>81</h>
+      <x>1296</x>
+      <y>488</y>
+      <w>288</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;..
 m1=snapshot</panel_attributes>
@@ -218,10 +218,10 @@ m1=snapshot</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>234</x>
-      <y>234</y>
-      <w>225</w>
-      <h>126</h>
+      <x>384</x>
+      <y>208</y>
+      <w>200</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>API Gateway
 --
@@ -231,22 +231,22 @@ Serverless</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>117</x>
-      <y>252</y>
-      <w>135</w>
-      <h>36</h>
+      <x>272</x>
+      <y>224</y>
+      <w>128</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;..
 REST request</panel_attributes>
-    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>140.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>513</x>
-      <y>234</y>
-      <w>216</w>
-      <h>72</h>
+      <x>632</x>
+      <y>208</y>
+      <w>192</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>Lambda Function</panel_attributes>
     <additional_attributes/>
@@ -254,10 +254,10 @@ REST request</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>225</x>
-      <y>630</y>
-      <w>441</w>
-      <h>99</h>
+      <x>376</x>
+      <y>560</y>
+      <w>392</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>AWS Cognito ID Service 
 --
@@ -267,10 +267,10 @@ Authentication</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>261</x>
-      <y>774</y>
-      <w>108</w>
-      <h>27</h>
+      <x>408</x>
+      <y>688</y>
+      <w>96</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>OAuth</panel_attributes>
     <additional_attributes/>
@@ -278,10 +278,10 @@ Authentication</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>378</x>
-      <y>774</y>
-      <w>108</w>
-      <h>72</h>
+      <x>512</x>
+      <y>688</y>
+      <w>96</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>SAML2</panel_attributes>
     <additional_attributes/>
@@ -289,10 +289,10 @@ Authentication</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>261</x>
-      <y>810</y>
-      <w>108</w>
-      <h>72</h>
+      <x>408</x>
+      <y>720</y>
+      <w>96</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>Social ID
 --
@@ -303,10 +303,10 @@ Google</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>495</x>
-      <y>774</y>
-      <w>126</w>
-      <h>72</h>
+      <x>616</x>
+      <y>688</y>
+      <w>112</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>Federage User Pool</panel_attributes>
     <additional_attributes/>
@@ -314,10 +314,10 @@ Google</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>513</x>
-      <y>387</y>
-      <w>216</w>
-      <h>72</h>
+      <x>632</x>
+      <y>344</y>
+      <w>192</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>AWS AppSync
 &lt;GraphQL Server&gt;</panel_attributes>
@@ -326,10 +326,10 @@ Google</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>720</x>
-      <y>405</y>
-      <w>522</w>
-      <h>27</h>
+      <x>816</x>
+      <y>360</y>
+      <w>464</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;..</panel_attributes>
     <additional_attributes>560.0;10.0;10.0;10.0</additional_attributes>
@@ -337,10 +337,10 @@ Google</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>0</x>
-      <y>405</y>
-      <w>531</w>
-      <h>36</h>
+      <x>176</x>
+      <y>360</y>
+      <w>472</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;..
 GraphQL request</panel_attributes>
@@ -349,10 +349,10 @@ GraphQL request</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1305</x>
-      <y>1188</y>
-      <w>351</w>
-      <h>117</h>
+      <x>1336</x>
+      <y>1056</y>
+      <w>312</w>
+      <h>104</h>
     </coordinates>
     <panel_attributes>Test tools
 --
@@ -366,10 +366,10 @@ Runscope</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>513</x>
+      <x>632</x>
       <y>0</y>
-      <w>270</w>
-      <h>108</h>
+      <w>240</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>Amaazon Beantalk</panel_attributes>
     <additional_attributes/>
@@ -377,10 +377,10 @@ Runscope</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>531</x>
-      <y>36</y>
-      <w>144</w>
-      <h>54</h>
+      <x>648</x>
+      <y>32</y>
+      <w>128</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>Applicatrion 
 --
@@ -391,10 +391,10 @@ Environment</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1080</x>
-      <y>261</y>
-      <w>90</w>
-      <h>72</h>
+      <x>1136</x>
+      <y>232</y>
+      <w>80</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>Elastic Cache</panel_attributes>
     <additional_attributes/>
@@ -402,10 +402,10 @@ Environment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1152</x>
-      <y>297</y>
-      <w>99</w>
-      <h>36</h>
+      <x>1200</x>
+      <y>264</y>
+      <w>88</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;..
 Cache Update</panel_attributes>
@@ -414,10 +414,10 @@ Cache Update</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1980</x>
-      <y>666</y>
-      <w>126</w>
-      <h>45</h>
+      <x>1936</x>
+      <y>592</y>
+      <w>112</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>Glacier
 &lt;Archive&gt;</panel_attributes>
@@ -426,10 +426,10 @@ Cache Update</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1701</x>
-      <y>243</y>
-      <w>234</w>
-      <h>45</h>
+      <x>1688</x>
+      <y>216</y>
+      <w>208</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>EC2</panel_attributes>
     <additional_attributes/>
@@ -437,10 +437,10 @@ Cache Update</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1701</x>
-      <y>396</y>
-      <w>234</w>
-      <h>63</h>
+      <x>1688</x>
+      <y>352</y>
+      <w>208</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>Elastic File System</panel_attributes>
     <additional_attributes/>
@@ -448,10 +448,10 @@ Cache Update</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1980</x>
-      <y>558</y>
-      <w>126</w>
-      <h>36</h>
+      <x>1936</x>
+      <y>496</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>Storeage Gateway</panel_attributes>
     <additional_attributes/>
@@ -459,10 +459,10 @@ Cache Update</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1701</x>
-      <y>315</y>
-      <w>126</w>
-      <h>63</h>
+      <x>1688</x>
+      <y>280</y>
+      <w>112</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>Elastic Block Store</panel_attributes>
     <additional_attributes/>
@@ -470,10 +470,10 @@ Cache Update</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1755</x>
-      <y>279</y>
-      <w>27</w>
-      <h>54</h>
+      <x>1736</x>
+      <y>248</y>
+      <w>24</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;..</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -481,10 +481,10 @@ Cache Update</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1863</x>
-      <y>279</y>
-      <w>27</w>
-      <h>135</h>
+      <x>1832</x>
+      <y>248</y>
+      <w>24</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>lt=&lt;..</panel_attributes>
     <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
@@ -492,10 +492,10 @@ Cache Update</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1701</x>
-      <y>666</y>
-      <w>252</w>
-      <h>45</h>
+      <x>1688</x>
+      <y>592</y>
+      <w>224</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>S3</panel_attributes>
     <additional_attributes/>
@@ -503,10 +503,10 @@ Cache Update</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1701</x>
-      <y>549</y>
-      <w>117</w>
-      <h>108</h>
+      <x>1688</x>
+      <y>488</y>
+      <w>104</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>S3 Bucket
 --
@@ -518,10 +518,10 @@ Folder
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1944</x>
-      <y>675</y>
-      <w>54</w>
-      <h>27</h>
+      <x>1904</x>
+      <y>600</y>
+      <w>48</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;..</panel_attributes>
     <additional_attributes>40.0;10.0;10.0;10.0</additional_attributes>
@@ -529,10 +529,10 @@ Folder
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1980</x>
-      <y>612</y>
-      <w>126</w>
-      <h>45</h>
+      <x>1936</x>
+      <y>544</y>
+      <w>112</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>Snowball</panel_attributes>
     <additional_attributes/>
@@ -540,10 +540,10 @@ Folder
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2205</x>
-      <y>558</y>
-      <w>153</w>
-      <h>153</h>
+      <x>2136</x>
+      <y>496</y>
+      <w>176</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>// Class Element
 
@@ -567,10 +567,10 @@ drawArc(5,20,26,8,180,180,true)fg=black bg=#222222 //Parameters (x, y, width, he
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1836</x>
-      <y>549</y>
-      <w>117</w>
-      <h>108</h>
+      <x>1808</x>
+      <y>488</y>
+      <w>104</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>S3 Bucket</panel_attributes>
     <additional_attributes/>
@@ -578,10 +578,10 @@ drawArc(5,20,26,8,180,180,true)fg=black bg=#222222 //Parameters (x, y, width, he
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1404</x>
-      <y>261</y>
-      <w>90</w>
-      <h>27</h>
+      <x>1424</x>
+      <y>232</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>MySQL</panel_attributes>
     <additional_attributes/>
@@ -589,10 +589,10 @@ drawArc(5,20,26,8,180,180,true)fg=black bg=#222222 //Parameters (x, y, width, he
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1404</x>
-      <y>297</y>
-      <w>90</w>
-      <h>27</h>
+      <x>1424</x>
+      <y>264</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>Aurora DB</panel_attributes>
     <additional_attributes/>
@@ -600,10 +600,10 @@ drawArc(5,20,26,8,180,180,true)fg=black bg=#222222 //Parameters (x, y, width, he
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1404</x>
-      <y>333</y>
-      <w>90</w>
-      <h>27</h>
+      <x>1424</x>
+      <y>296</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>Oracle DB</panel_attributes>
     <additional_attributes/>
@@ -611,10 +611,10 @@ drawArc(5,20,26,8,180,180,true)fg=black bg=#222222 //Parameters (x, y, width, he
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1566</x>
-      <y>720</y>
-      <w>108</w>
-      <h>162</h>
+      <x>1568</x>
+      <y>640</y>
+      <w>96</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>S3 Web Hosting</panel_attributes>
     <additional_attributes/>
@@ -622,10 +622,10 @@ drawArc(5,20,26,8,180,180,true)fg=black bg=#222222 //Parameters (x, y, width, he
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>225</x>
-      <y>738</y>
-      <w>441</w>
-      <h>162</h>
+      <x>376</x>
+      <y>656</y>
+      <w>392</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>Authentication Provider
 layer=-1</panel_attributes>
@@ -634,12 +634,63 @@ layer=-1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>495</x>
-      <y>684</y>
-      <w>90</w>
-      <h>27</h>
+      <x>616</x>
+      <y>608</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>Identify Pool</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>8</x>
+      <y>440</y>
+      <w>136</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>&lt;Browser Client&gt;
+--
+signUp()
+
+signIn()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>96</x>
+      <y>544</y>
+      <w>72</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>AWS.S3()
+--
+bucket</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>552</y>
+      <w>1664</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..
+m1=snapshot</panel_attributes>
+    <additional_attributes>2060.0;10.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>728</y>
+      <w>144</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Cognito JavaScript SDK</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
